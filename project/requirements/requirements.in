@@ -4,3 +4,4 @@ gunicorn
 newspaper3k
 requests
 tortoise-orm
+asyncpg

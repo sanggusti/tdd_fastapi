@@ -8,6 +8,8 @@ aiosqlite==0.16.1
     # via tortoise-orm
 asgiref==3.3.4
     # via uvicorn
+asyncpg==0.23.0
+    # via -r requirements.in
 beautifulsoup4==4.9.3
     # via
     #   feedfinder2
