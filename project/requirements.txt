@@ -10,6 +10,8 @@ asgiref==3.3.4
     # via uvicorn
 asyncpg==0.23.0
     # via -r requirements.in
+attrs==21.2.0
+    # via pytest
 beautifulsoup4==4.9.3
     # via
     #   feedfinder2
@@ -40,6 +42,8 @@ idna==2.10
     # via
     #   requests
     #   tldextract
+iniconfig==1.1.1
+    # via pytest
 iso8601==0.1.14
     # via tortoise-orm
 jieba3k==0.35.1
@@ -52,12 +56,22 @@ newspaper3k==0.2.8
     # via -r requirements.in
 nltk==3.6.2
     # via newspaper3k
+packaging==20.9
+    # via pytest
 pillow==8.2.0
     # via newspaper3k
+pluggy==0.13.1
+    # via pytest
+py==1.10.0
+    # via pytest
 pydantic==1.8.2
     # via fastapi
+pyparsing==2.4.7
+    # via packaging
 pypika-tortoise==0.1.1
     # via tortoise-orm
+pytest==6.2.4
+    # via -r requirements.in
 python-dateutil==2.8.1
     # via newspaper3k
 pytz==2021.1
@@ -90,6 +104,8 @@ tinysegmenter==0.3
     # via newspaper3k
 tldextract==3.1.0
     # via newspaper3k
+toml==0.10.2
+    # via pytest
 tortoise-orm==0.17.4
     # via -r requirements.in
 tqdm==4.61.1
