@@ -1,4 +1,4 @@
 {
     "python.pythonPath": "project/app/env/bin/python3",
-    "python.analysis.extraPaths": ["project/app"]
+    "python.analysis.extraPaths": ["${workspaceFolder}/project/app"]
 }
